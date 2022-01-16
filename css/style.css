@@ -1,2 +1,151 @@
+/* font style starts here  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 52px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+}
+
+.main-container {
+    padding: 0px 50px;
+}
+
+/* navigation bar style starts here  */
+
+.navbar {
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.navbar-right-side ul {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-right-side ul li {
+    list-style: none;
+}
+
+.navbar-right-side ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 14px;
+    padding: 4px;
+}
+
+.navbar-right-side ul li a:hover {
+    color: #E02C6D;
+}
+
+/* header part style starts here  */
+
+.header-part {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro-right-side {
+    display: flex;
+    justify-content: center;
+}
+
+#click-button {
+    width: 180px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    transition: width 2s ease-in-out;
+}
+
+#click-button:hover {
+    width: 580px;
+}
+
+#click-button i {
+    margin-left: 10px;
+}
+
+/* company logo part starts here  */
+
+.company-logo {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.logo {
+    padding: 0px 25px;
+}
+
+
+/* ========================== */
+/* media queries starts here  */
+/* ========================== */
+
+/* for mobile device */
+
+@media only screen and (max-width: 688px) {
+    .navbar-left-side h2 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .navbar {
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .navbar-right-side ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .header-part {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    .intro-right-side {
+    display: flex;
+    justify-content: center;
+    }
+    #click-button:hover {
+    width: 500px;
+    }
+    .company-logo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .company-logo .logo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        padding: 15px 0px;  
+    }
+    
+}
