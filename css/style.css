@@ -76,6 +76,12 @@ p {
     justify-content: center;
 }
 
+.intro-right-side img {
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #click-button {
     width: 180px;
     border: none;
