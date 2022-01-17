@@ -79,7 +79,7 @@ p {
 .intro-right-side img {
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 #click-button {
