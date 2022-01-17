@@ -144,9 +144,21 @@ p {
     padding-left: 10px;
 }
 
-.see-more {
+.popular-collection {
     position: relative;
+}
+
+.see-more p {
+    margin-top: 50px;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: red;
+    position: absolute;
+    bottom: 0;
     right: 0;
+    margin-top: 50px;
 }
 
 .extra-part {
