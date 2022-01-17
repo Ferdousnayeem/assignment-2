@@ -285,6 +285,9 @@ input {
         flex-wrap: wrap; 
         padding: 15px 0px;  
     }
+    .popular-collection-part {
+        width: 0;
+    }
     .collections {
         display: flex;
         flex-direction: column;
