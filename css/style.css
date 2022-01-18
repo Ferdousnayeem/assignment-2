@@ -115,7 +115,7 @@ p {
 }
 
 .popular-collection-part {
-    width: 1047px;
+    /* width: 1047px; */
     display: flex;
     flex-direction: column;
     align-items: center;
